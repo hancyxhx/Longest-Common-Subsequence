@@ -1,11 +1,11 @@
 
-all : liblcs.a sample_main.out
+all : liblongest_common_subsequence.a sample_main.out
 
-sample_main.out : sample_main.c liblcs.a longest_common_subsequence.h
-	gcc -std=c99 -o $@ sample_main.c -L. -llcs -I.
+sample_main.out : sample_main.c liblongest_common_subsequence.a longest_common_subsequence.h
+	gcc -std=c99 -o $@ sample_main.c -L. -llongest_common_subsequence -I.
 
-liblcs.a : longest_common_subsequence.o
-	ar -rcs liblcs.a longest_common_subsequence.o
+liblongest_common_subsequence.a : longest_common_subsequence.o
+	ar -rcs $@ longest_common_subsequence.o
 
 longest_common_subsequence.o : longest_common_subsequence.c
 	gcc -std=c99 -o $@ -c longest_common_subsequence.c
