@@ -11,3 +11,4 @@ int main(int argc, char *argv[]){
     printf("%s\n", lcs_str);
     return 0;
 }
+
