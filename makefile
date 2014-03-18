@@ -12,5 +12,5 @@ longest_common_subsequence.o : longest_common_subsequence.c
 
 clean :
 	rm -rf longest_common_subsequence.o
-	rm -rf liblcs.a
+	rm -rf liblongest_common_subsequence.a
 	rm -rf sample_main.out
