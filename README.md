@@ -11,13 +11,14 @@ By now, only suport to find TWO string's longest common subsequence. Giving two 
 Usage:
 --------------------------
 
-       step 1:
-              git clone https://github.com/hancyxhx/Longest-Common-Subsequence
-       step 2:
-              cd Longest-Common-Subsequence/
-       step 3:
-              make
-       step 4:
+    step 1:
+       git clone https://github.com/hancyxhx/Longest-Common-Subsequence
+    step 2:
+       cd Longest-Common-Subsequence/
+    step 3:
+       make
+    step 4:
+
 
 TODO List
 --------------------------
