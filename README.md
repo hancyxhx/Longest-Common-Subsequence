@@ -36,6 +36,6 @@ then add command like below to your makefile
 
 TODO List
 --------------------------
-1. write usage document  
+1. update README with CODE EXAMPLE  
 2. suport return multi longest-common-subsequences if there are  
 3. translate comment to english  
