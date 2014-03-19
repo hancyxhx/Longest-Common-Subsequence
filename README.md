@@ -21,11 +21,11 @@ step 3:
 
     make
 step 4:  
-if every thing works fine, you can find these file in the directory  
+if every thing works fine, you can find these two files in the directory  
 
     liblongest_common_subsequence.a    longest_common_subsequence.h
 
-copy them to your project, then add command like below to your makefile  
+copy them to your project, then add command like below to your makefile.  
 (say you put liblongest_common_subsequence.a in the directory named LIB_FILE_PATH,  
 put longest_common_subsequence.h in the directory named HEAD_FILE_PATH)  
 
